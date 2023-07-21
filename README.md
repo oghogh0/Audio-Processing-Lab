@@ -30,3 +30,26 @@ Create MIX SAMPLES function:<br/>
 This function computes the mixing of sample for the mix function and returns a mix_sample list. <br/>
 
 <img src= "https://imgur.com/dhzht8g.png" height="40%" width="40%"/>
+
+
+<br />
+<p align="left">
+Create FILTER functions:<br/>
+
+It is important to note that none of these functions should modify the input sound <br/>
+1. Convolve - applies a filter to a sound, resulting in a new sound that is longer than the original mono sound by the (kernel length - 1). <br />
+
+<img src= "https://imgur.com/1SkIeak.png" height="50%" width="50%"/>
+<br />
+2. Echo - outputs a new mono sound after applying the echo effect by computing a new signal consisting of several scaled-down and delayed versions of the input.<br />
+
+<img src= "https://imgur.com/vgN4Hfs.png" height="40%" width="40%"/>
+<br />
+3. Pan - creates a neat spatial effect. <br />
+
+<img src= "https://imgur.com/dQupaSx.png" height="50%" width="50%"/>
+<br />
+4. Vocal elimination - removes vocals from sound. <br />
+
+<img src= "https://imgur.com/4eyvVE9.png" height="50%" width="50%"/>
+<br />
