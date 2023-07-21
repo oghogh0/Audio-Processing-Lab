@@ -1,6 +1,6 @@
 <h1>Audio Processing Lab</h1>
 <h2>Description</h2>
-In this lab, I have <br />
+In this lab, I have explored different ways in manipulating audios and applying filters that can alter the way an audio is perceived. <br />
 
 <h2>Languages and Environments Used</h2>
 
